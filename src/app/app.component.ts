@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+ import { Quote } from './quote'; 
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  Quote:string[];
-
-  constructor(){
-    this.Quote = ['Miracles happen to those who believe in them', 'One small positive thought can change your whole day', 'Positive anything is better than negative nothing']
-  }
+  quotes:Quote[] = [ 
+  {author:'Elbert Hubbard', quote:'Positive anything is better than negative nothing', person:'Melonie L'},
+  {author:'Bernhard Berenson', quote:'Miracles happen to those who believe in them', person:'Melonie L'},
+  {author:'Zig Ziglar', quote:'One small positive thought can change your whole day', person:'Melonie L'}
+  ]
+ 
 }
