@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quotes:Quote[] = [ 
-  {author:'Elbert Hubbard', quote:'Positive anything is better than negative nothing', person:'Melonie L'},
-  {author:'Bernhard Berenson', quote:'Miracles happen to those who believe in them', person:'Melonie L'},
-  {author:'Zig Ziglar', quote:'One small positive thought can change your whole day', person:'Melonie L'}
-  ]
+ 
  
 }
