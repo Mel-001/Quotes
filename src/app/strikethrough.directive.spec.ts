@@ -1,3 +1,4 @@
+import { ElementRef } from '@angular/core';
 import { StrikethroughDirective } from './strikethrough.directive';
 
 describe('StrikethroughDirective', () => {
@@ -6,3 +7,5 @@ describe('StrikethroughDirective', () => {
     expect(directive).toBeTruthy();
   });
 });
+
+
