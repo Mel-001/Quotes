@@ -7,11 +7,19 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes:Quote[] = [ 
-    {author:'Elbert Hubbard', quote:'Positive anything is better than negative nothing', person:'Melonie L'},
-    {author:'Bernhard Berenson', quote:'Miracles happen to those who believe in them', person:'Melonie L'},
-    {author:'Zig Ziglar', quote:'One small positive thought can change your whole day', person:'Melonie L'}
-    ]
+  quote:Quote[] = [ 
+   new Quote ('Elbert Hubbard', 'Positive anything is better than negative nothing', 'Melonie L', 'Think positively'),
+   new Quote ('Bernhard Berenson', 'Miracles happen to those who believe in them', 'Melonie L', 'Think positively'),
+    new Quote ('Zig Ziglar', 'One small positive thought can change your whole day', 'Melonie L', 'Think positively')
+    ];
+    completeQuote(isComplete:any, index:any){
+      if (isComplete){
+        this.quote.splice(index,1);
+      }
+    }
+    toggleDetails(index:any){
+      this.quote[index].showDescription = !this.quote[index].showDescription;
+    }
 
   constructor() { }
 
@@ -19,3 +27,5 @@ export class QuoteComponent implements OnInit {
   }
 
 }
+
+
