@@ -5,15 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { StrikethroughDirective } from './strikethrough.directive';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
     QuoteDetailComponent,
-    StrikethroughDirective,
     QuoteFormComponent
   ],
   imports: [

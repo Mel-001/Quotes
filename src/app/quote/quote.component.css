@@ -1,0 +1,12 @@
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: rgb(66, 0, 128);
+    margin: 10px;
+}
+
+/* .container-fluid{
+    background-image: url("src/assets/background-angular.jpg");
+    background-size: cover;
+} */
