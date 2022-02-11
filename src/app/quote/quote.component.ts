@@ -10,7 +10,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA }      from '@angular/core';
 })
 export class QuoteComponent implements OnInit {
 
-  // upvotes=0;
+  upvotes=0;
   // downvotes=0;
 
   quotes:Quote[] = [
@@ -54,9 +54,9 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  // upvote(i: number) {
-  //   this.quotes[i].upvotes+=1
-  // }
+  upvote(i: number) {
+    this.quotes[i].upvotes+=1
+  }
 
   // downvote(i: number) {
   //   this.quotes[i].downvotes+=1
