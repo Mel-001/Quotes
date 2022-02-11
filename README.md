@@ -1,75 +1,37 @@
-# Project Name
- - Quote-App,
-# Project Description
- - This Website is meant to create an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
- # Author(s) information
- - Melonie Langat.
- # Prerequisities
- - You need to have git installed
- - You can install it with the following command in your terminal
-`$ sudo apt install git-all`
-# Setup instructions
-To access this project on your local files, you can clone it using these steps
-1. Open your terminal
-1. Use this command to clone `$ git clone
- https://github.com/Mel-001/Quote
-1. This will clone the repositoty into your local folder
-1. __Enjoy :)__:)__
-# BDD
-## User Stories 
-### As as customer, one will be able to do the following,
- - As a user I would like to:
+# Quotes
+#### Quotes, February 10 2022
+#### By **Melonie Langat**
 
-  - Create a new quote.
-  - Upvote or downvote a quote.
-  - Delete a quote
-  - See the number of upvotes and number of downvotes for each quote.
-  # Live Site
-View [Live] ( https://github.com/Mel-001/Quote)
-# Technologies Used
-1. HTML
-1. CSS
-1. JAVASCRIPT
-1. ANGULARJS
-1. BOOTSRAP
-1. GIT
-# Quote
+## Description
+- An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
+## Behaviour Driven Development(BDD)
 
-## Development server
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| User clicks Post  Quote     | Quote form displays with input fields for Author, Publisher                  |
+| User Clicks Delete           | The quote is purged from view             |
+| User clicks Upvote        |   upvote is incremented value by   1 on each click      |
+| User clicks Downvote     | downvote is decremented value by 1 on each click     |
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation requirements
 
-## Code scaffolding
+- Clone  or download and unzip the repository from github, [](https://github.com/Mel-001/Quotes-.git).
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Technologies Used
+- Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Known Bugs
+- There are no known bugs currently. The page works as expected.
 
-## Running unit tests
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email: `melonielangat@gmail.com`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+- Make contributions to the code.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Contact information
-You can reach me through my E-mail address
- - ( melonielangat@gmail.com)
-# Licence And Copyright Information
- - Copyright 2022 Melonie Langat.
-
- - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
- - The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- - This license is under [MIT](license);
-
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2022. [Melonie Langat](https://github.com/Mel-001)
