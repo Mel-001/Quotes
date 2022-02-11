@@ -11,7 +11,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA }      from '@angular/core';
 export class QuoteComponent implements OnInit {
 
   upvotes=0;
-  // downvotes=0;
+  downvotes=0;
 
   quotes:Quote[] = [
    new Quote (1, 'Elbert Hubbard', 'Positive anything is better than negative nothing', 'Melonie L', 'Think positively', new Date(2022, 4, 17)),
@@ -58,9 +58,9 @@ export class QuoteComponent implements OnInit {
     this.quotes[i].upvotes+=1
   }
 
-  // downvote(i: number) {
-  //   this.quotes[i].downvotes+=1
-  // }
+  downvote(i: number) {
+    this.quotes[i].downvotes+=1
+  }
 
   toDelete(i: number) {
     this.quotes.splice(i, 1)
